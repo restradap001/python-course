@@ -4,6 +4,495 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        // --- intermediate/advanced_collections/examples ---
+        {
+            "name": "example_tuple_basic",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_tuple_basic.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/examples"
+        },
+        {
+            "name": "example_tuple_unpacking",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_tuple_unpacking.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/examples"
+        },
+        {
+            "name": "example_set_basic",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_set_basic.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/examples"
+        },
+        {
+            "name": "example_set_operations",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_set_operations.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/examples"
+        },
+        {
+            "name": "example_list_comprehension",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_list_comprehension.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/examples"
+        },
+        {
+            "name": "example_dict_comprehension",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_dict_comprehension.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/examples"
+        },
+        {
+            "name": "example_tuple_immutable",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_tuple_immutable.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/examples"
+        },
+        {
+            "name": "example_set_add",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_set_add.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/examples"
+        },
+        {
+            "name": "example_tuple_in_set",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_tuple_in_set.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/examples"
+        },
+        {
+            "name": "example_nested_comprehension",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_nested_comprehension.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/examples"
+        },
+
+        // --- intermediate/advanced_collections/exercises ---
+        {
+            "name": "exercise_tuple_unpack",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_tuple_unpack.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/exercises"
+        },
+        {
+            "name": "exercise_tuple_immutable",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_tuple_immutable.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/exercises"
+        },
+        {
+            "name": "exercise_set_add",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_set_add.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/exercises"
+        },
+        {
+            "name": "exercise_set_operations",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_set_operations.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/exercises"
+        },
+        {
+            "name": "exercise_tuple_in_set",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_tuple_in_set.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/exercises"
+        },
+        {
+            "name": "exercise_list_comprehension",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_list_comprehension.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/exercises"
+        },
+        {
+            "name": "exercise_dict_comprehension",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_dict_comprehension.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/exercises"
+        },
+        {
+            "name": "exercise_set_remove",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_set_remove.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/exercises"
+        },
+        {
+            "name": "exercise_nested_comprehension",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_nested_comprehension.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/exercises"
+        },
+        {
+            "name": "exercise_set_membership",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_set_membership.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/advanced_collections/exercises"
+        },
+        // --- beginner/comparison_operators/examples ---
+        {
+            "name": "example_equal",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_equal.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/examples"
+        },
+        {
+            "name": "example_not_equal",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_not_equal.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/examples"
+        },
+        {
+            "name": "example_greater",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_greater.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/examples"
+        },
+        {
+            "name": "example_less",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_less.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/examples"
+        },
+        {
+            "name": "example_greater_equal",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_greater_equal.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/examples"
+        },
+        {
+            "name": "example_less_equal",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_less_equal.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/examples"
+        },
+        {
+            "name": "example_compare_strings",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_compare_strings.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/examples"
+        },
+        {
+            "name": "example_compare_types",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_compare_types.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/examples"
+        },
+        {
+            "name": "example_compare_input",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_compare_input.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/examples"
+        },
+        {
+            "name": "example_chain_comparison",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_chain_comparison.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/examples"
+        },
+
+        // --- beginner/comparison_operators/exercises ---
+        {
+            "name": "exercise_equal_numbers",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_equal_numbers.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/exercises"
+        },
+        {
+            "name": "exercise_not_equal_strings",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_not_equal_strings.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/exercises"
+        },
+        {
+            "name": "exercise_greater",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_greater.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/exercises"
+        },
+        {
+            "name": "exercise_less",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_less.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/exercises"
+        },
+        {
+            "name": "exercise_greater_equal",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_greater_equal.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/exercises"
+        },
+        {
+            "name": "exercise_less_equal",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_less_equal.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/exercises"
+        },
+        {
+            "name": "exercise_compare_types",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_compare_types.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/exercises"
+        },
+        {
+            "name": "exercise_compare_strings",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_compare_strings.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/exercises"
+        },
+        {
+            "name": "exercise_chain_comparison",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_chain_comparison.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/exercises"
+        },
+        {
+            "name": "exercise_compare_input",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_compare_input.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/comparison_operators/exercises"
+        },
+        // --- beginner/input_output_basic/examples ---
+        {
+            "name": "example_input_basic",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_input_basic.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/examples"
+        },
+        {
+            "name": "example_input_number",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_input_number.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/examples"
+        },
+        {
+            "name": "example_input_float",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_input_float.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/examples"
+        },
+        {
+            "name": "example_multiple_inputs",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_multiple_inputs.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/examples"
+        },
+        {
+            "name": "example_input_strip",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_input_strip.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/examples"
+        },
+        {
+            "name": "example_input_upper",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_input_upper.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/examples"
+        },
+        {
+            "name": "example_input_format",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_input_format.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/examples"
+        },
+        {
+            "name": "example_input_type",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_input_type.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/examples"
+        },
+        {
+            "name": "example_input_bool",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_input_bool.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/examples"
+        },
+        {
+            "name": "example_input_eval",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_input_eval.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/examples"
+        },
+
+        // --- beginner/input_output_basic/exercises ---
+        {
+            "name": "exercise_greet_user",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_greet_user.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/exercises"
+        },
+        {
+            "name": "exercise_double_number",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_double_number.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/exercises"
+        },
+        {
+            "name": "exercise_sum_two_numbers",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_sum_two_numbers.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/exercises"
+        },
+        {
+            "name": "exercise_input_strip",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_input_strip.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/exercises"
+        },
+        {
+            "name": "exercise_input_upper",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_input_upper.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/exercises"
+        },
+        {
+            "name": "exercise_input_type",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_input_type.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/exercises"
+        },
+        {
+            "name": "exercise_input_float",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_input_float.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/exercises"
+        },
+        {
+            "name": "exercise_input_bool",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_input_bool.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/exercises"
+        },
+        {
+            "name": "exercise_input_eval",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_input_eval.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/exercises"
+        },
+        {
+            "name": "exercise_multiple_inputs",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_multiple_inputs.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/input_output_basic/exercises"
+        },
         // --- advanced/error_management/examples ---
         {
             "name": "example_assert",
