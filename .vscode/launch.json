@@ -3,5 +3,1983 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        // --- advanced/error_management/examples ---
+        {
+            "name": "example_assert",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_assert.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/examples"
+        },
+        {
+            "name": "example_catch_typeerror",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_catch_typeerror.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/examples"
+        },
+        {
+            "name": "example_division_by_zero",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_division_by_zero.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/examples"
+        },
+        {
+            "name": "example_file_not_found",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_file_not_found.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/examples"
+        },
+        {
+            "name": "example_finally_block",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_finally_block.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/examples"
+        },
+        {
+            "name": "example_invalid_input",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_invalid_input.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/examples"
+        },
+        {
+            "name": "example_multiple_exceptions",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_multiple_exceptions.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/examples"
+        },
+        {
+            "name": "example_nested_try",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_nested_try.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/examples"
+        },
+        {
+            "name": "example_raise_custom",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_raise_custom.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/examples"
+        },
+        {
+            "name": "example_try_except_else",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_try_except_else.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/examples"
+        },
+        // --- advanced/error_management/exercises ---
+        {
+            "name": "exercise_assert",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_assert.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/exercises"
+        },
+        {
+            "name": "exercise_catch_typeerror",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_catch_typeerror.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/exercises"
+        },
+        {
+            "name": "exercise_division_by_zero",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_division_by_zero.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/exercises"
+        },
+        {
+            "name": "exercise_file_not_found",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_file_not_found.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/exercises"
+        },
+        {
+            "name": "exercise_finally_block",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_finally_block.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/exercises"
+        },
+        {
+            "name": "exercise_invalid_input",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_invalid_input.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/exercises"
+        },
+        {
+            "name": "exercise_multiple_exceptions",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_multiple_exceptions.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/exercises"
+        },
+        {
+            "name": "exercise_nested_try",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_nested_try.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/exercises"
+        },
+        {
+            "name": "exercise_raise_custom",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_raise_custom.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/exercises"
+        },
+        {
+            "name": "exercise_try_except_else",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_try_except_else.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/error_management/exercises"
+        },
+        // --- advanced/file_manipulation/examples ---
+        {
+            "name": "example_append",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_append.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/examples"
+        },
+        {
+            "name": "example_count_lines",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_count_lines.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/examples"
+        },
+        {
+            "name": "example_create_file",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_create_file.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/examples"
+        },
+        {
+            "name": "example_file_exists",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_file_exists.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/examples"
+        },
+        {
+            "name": "example_read.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_read.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/examples"
+        },
+        {
+            "name": "example_read_all",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_read_all.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/examples"
+        },
+        {
+            "name": "example_read_first_line",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_read_first_line.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/examples"
+        },
+        {
+            "name": "example_read_lines",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_read_lines.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/examples"
+        },
+        {
+            "name": "example_write.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_write.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/examples"
+        },
+        {
+            "name": "example_write_multiple_lines",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_write_multiple_lines.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/examples"
+        },
+        // --- advanced/file_manipulation/exercises ---
+        {
+            "name": "exercise_append_file",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_append_file.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/exercises"
+        },
+        {
+            "name": "exercise_count_lines",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_count_lines.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/exercises"
+        },
+        {
+            "name": "exercise_create_file",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_create_file.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/exercises"
+        },
+        {
+            "name": "exercise_file_exists",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_file_exists.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/exercises"
+        },
+        {
+            "name": "exercise_print_lines",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_print_lines.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/exercises"
+        },
+        {
+            "name": "exercise_read_all",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_read_all.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/exercises"
+        },
+        {
+            "name": "exercise_read_file",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_read_file.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/exercises"
+        },
+        {
+            "name": "exercise_read_first_line",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_read_first_line.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/exercises"
+        },
+        {
+            "name": "exercise_write_file",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_write_file.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/exercises"
+        },
+        {
+            "name": "exercise_write_multiple_lines",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_write_multiple_lines.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/advanced/file_manipulation/exercises"
+        },
+        // --- beginner/arithmetic_operations/examples ---
+        {
+            "name": "example_add_subtract",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_add_subtract.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/examples"
+        },
+        {
+            "name": "example_average_temperature",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_average_temperature.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/examples"
+        },
+        {
+            "name": "example_exponentiation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_exponentiation.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/examples"
+        },
+        {
+            "name": "example_integer_division",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_integer_division.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/examples"
+        },
+        {
+            "name": "example_modulo",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_modulo.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/examples"
+        },
+        {
+            "name": "example_monthly_expenses",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_monthly_expenses.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/examples"
+        },
+        {
+            "name": "example_multiply_divide",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_multiply_divide.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/examples"
+        },
+        {
+            "name": "example_price_discount",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_price_discount.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/examples"
+        },
+        {
+            "name": "example_total_invoice",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_total_invoice.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/examples"
+        },
+        {
+            "name": "example_unit_conversion",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_unit_conversion.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/examples"
+        },
+        {
+            "name": "examples.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "examples.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/examples"
+        },
+        // --- beginner/arithmetic_operations/exercises ---
+        {
+            "name": "exercise_average",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_average.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/exercises"
+        },
+        {
+            "name": "exercise_basic_operations",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_basic_operations.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/exercises"
+        },
+        {
+            "name": "exercise_calculate_bmi",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_calculate_bmi.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/exercises"
+        },
+        {
+            "name": "exercise_calculate_rectangle_area",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_calculate_rectangle_area.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/exercises"
+        },
+        {
+            "name": "exercise_currency_converter",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_currency_converter.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/exercises"
+        },
+        {
+            "name": "exercise_exponentiation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_exponentiation.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/exercises"
+        },
+        {
+            "name": "exercise_integer_division",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_integer_division.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/exercises"
+        },
+        {
+            "name": "exercise_modulo",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_modulo.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/exercises"
+        },
+        {
+            "name": "exercise_split_bill",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_split_bill.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/exercises"
+        },
+        {
+            "name": "exercise_total_savings",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_total_savings.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/arithmetic_operations/exercises"
+        },
+        // --- beginner/control_structures/examples ---
+        {
+            "name": "example_check_age",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_check_age.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/examples"
+        },
+        {
+            "name": "example_check_password",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_check_password.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/examples"
+        },
+        {
+            "name": "example_check_temperature",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_check_temperature.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/examples"
+        },
+        {
+            "name": "example_even_odd",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_even_odd.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/examples"
+        },
+        {
+            "name": "example_grade_message",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_grade_message.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/examples"
+        },
+        {
+            "name": "example_if_elif_else",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_if_elif_else.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/examples"
+        },
+        {
+            "name": "example_if_else",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_if_else.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/examples"
+        },
+        {
+            "name": "example_if_string_check",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_if_string_check.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/examples"
+        },
+        {
+            "name": "example_nested_if",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_nested_if.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/examples"
+        },
+        {
+            "name": "example_simple_if",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_simple_if.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/examples"
+        },
+        // --- beginner/control_structures/exercises ---
+        {
+            "name": "exercise_check_even_odd",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_check_even_odd.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/exercises"
+        },
+        {
+            "name": "exercise_check_grade",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_check_grade.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/exercises"
+        },
+        {
+            "name": "exercise_check_password",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_check_password.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/exercises"
+        },
+        {
+            "name": "exercise_check_temperature",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_check_temperature.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/exercises"
+        },
+        {
+            "name": "exercise_check_voting",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_check_voting.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/exercises"
+        },
+        {
+            "name": "exercise_if_elif_else_grades",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_if_elif_else_grades.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/exercises"
+        },
+        {
+            "name": "exercise_if_else_even_odd",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_if_else_even_odd.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/exercises"
+        },
+        {
+            "name": "exercise_if_empty_string",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_if_empty_string.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/exercises"
+        },
+        {
+            "name": "exercise_if_positive",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_if_positive.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/exercises"
+        },
+        {
+            "name": "exercise_nested_if_teenager",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_nested_if_teenager.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/control_structures/exercises"
+        },
+        // --- beginner/data_types/examples ---
+        {
+            "name": "example_boolean",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_boolean.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/examples"
+        },
+        {
+            "name": "example_boolean_flag",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_boolean_flag.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/examples"
+        },
+        {
+            "name": "example_float",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_float.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/examples"
+        },
+        {
+            "name": "example_integer",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_integer.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/examples"
+        },
+        {
+            "name": "example_integer_sum",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_integer_sum.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/examples"
+        },
+        {
+            "name": "example_is_none",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_is_none.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/examples"
+        },
+        {
+            "name": "example_none",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_none.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/examples"
+        },
+        {
+            "name": "example_string",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_string.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/examples"
+        },
+        {
+            "name": "example_string_format",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_string_format.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/examples"
+        },
+        {
+            "name": "example_temperature_float",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_temperature_float.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/examples"
+        },
+        {
+            "name": "examples.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "examples.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/examples"
+        },
+        // --- beginner/data_types/exercises ---
+        {
+            "name": "exercise_boolean_flag",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_boolean_flag.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/exercises"
+        },
+        {
+            "name": "exercise_boolean_variable",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_boolean_variable.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/exercises"
+        },
+        {
+            "name": "exercise_check_type",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_check_type.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/exercises"
+        },
+        {
+            "name": "exercise_float_variable",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_float_variable.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/exercises"
+        },
+        {
+            "name": "exercise_integer_variable",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_integer_variable.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/exercises"
+        },
+        {
+            "name": "exercise_none_value",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_none_value.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/exercises"
+        },
+        {
+            "name": "exercise_none_variable",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_none_variable.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/exercises"
+        },
+        {
+            "name": "exercise_string_format.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_string_format.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/exercises"
+        },
+        {
+            "name": "exercise_string_variable",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_string_variable.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/exercises"
+        },
+        {
+            "name": "exercise_sum_integers",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_sum_integers.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/data_types/exercises"
+        },
+        // --- beginner/logical_operations/examples ---
+        {
+            "name": "example_access_granted",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_access_granted.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/examples"
+        },
+        {
+            "name": "example_and",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_and.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/examples"
+        },
+        {
+            "name": "example_and_or",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_and_or.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/examples"
+        },
+        {
+            "name": "example_combined",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_combined.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/examples"
+        },
+        {
+            "name": "example_combined_conditions",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_combined_conditions.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/examples"
+        },
+        {
+            "name": "example_comparison",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_comparison.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/examples"
+        },
+        {
+            "name": "example_not",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_not.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/examples"
+        },
+        {
+            "name": "example_not_subscribed",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_not_subscribed.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/examples"
+        },
+        {
+            "name": "example_or",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_or.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/examples"
+        },
+        {
+            "name": "example_or_login",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_or_login.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/examples"
+        },
+        // --- beginner/logical_operations/exercises ---
+        {
+            "name": "exercise_access_event",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_access_event.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/exercises"
+        },
+        {
+            "name": "exercise_and_or_access",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_and_or_access.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/exercises"
+        },
+        {
+            "name": "exercise_and_range",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_and_range.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/exercises"
+        },
+        {
+            "name": "exercise_discount_combined",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_discount_combined.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/exercises"
+        },
+        {
+            "name": "exercise_is_even",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_is_even.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/exercises"
+        },
+        {
+            "name": "exercise_login_or_email",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_login_or_email.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/exercises"
+        },
+        {
+            "name": "exercise_not_boolean",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_not_boolean.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/exercises"
+        },
+        {
+            "name": "exercise_not_subscribed",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_not_subscribed.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/exercises"
+        },
+        {
+            "name": "exercise_or_condition",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_or_condition.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/exercises"
+        },
+        {
+            "name": "exercise_positive_even",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_positive_even.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/logical_operations/exercises"
+        },
+        // --- beginner/string_manipulation/examples ---
+        {
+            "name": "example_case",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_case.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/examples"
+        },
+        {
+            "name": "example_concatenate",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_concatenate.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/examples"
+        },
+        {
+            "name": "example_count_char",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_count_char.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/examples"
+        },
+        {
+            "name": "example_email_validation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_email_validation.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/examples"
+        },
+        {
+            "name": "example_formatting",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_formatting.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/examples"
+        },
+        {
+            "name": "example_length",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_length.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/examples"
+        },
+        {
+            "name": "example_replace_word",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_replace_word.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/examples"
+        },
+        {
+            "name": "example_slicing",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_slicing.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/examples"
+        },
+        {
+            "name": "example_split_join",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_split_join.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/examples"
+        },
+        {
+            "name": "example_strip_spaces",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_strip_spaces.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/examples"
+        },
+        // --- beginner/string_manipulation/exercises ---
+        {
+            "name": "exercise_case_conversion",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_case_conversion.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/exercises"
+        },
+        {
+            "name": "exercise_concatenate_strings",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_concatenate_strings.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/exercises"
+        },
+        {
+            "name": "exercise_count_char",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_count_char.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/exercises"
+        },
+        {
+            "name": "exercise_email_validation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_email_validation.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/exercises"
+        },
+        {
+            "name": "exercise_replace_word",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_replace_word.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/exercises"
+        },
+        {
+            "name": "exercise_split_join",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_split_join.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/exercises"
+        },
+        {
+            "name": "exercise_string_formatting",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_string_formatting.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/exercises"
+        },
+        {
+            "name": "exercise_string_length",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_string_length.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/exercises"
+        },
+        {
+            "name": "exercise_string_slicing",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_string_slicing.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/exercises"
+        },
+        {
+            "name": "exercise_strip_spaces",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_strip_spaces.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/string_manipulation/exercises"
+        },
+        // --- beginner/variables/examples ---
+        {
+            "name": "example_assign",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_assign.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/examples"
+        },
+        {
+            "name": "example_counter",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_counter.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/examples"
+        },
+        {
+            "name": "example_multiple_assign",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_multiple_assign.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/examples"
+        },
+        {
+            "name": "example_multiple_updates",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_multiple_updates.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/examples"
+        },
+        {
+            "name": "example_print_line",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_print_line.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/examples"
+        },
+        {
+            "name": "example_reassign",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_reassign.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/examples"
+        },
+        {
+            "name": "example_swap",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_swap.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/examples"
+        },
+        {
+            "name": "example_temp_swap",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_temp_swap.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/examples"
+        },
+        {
+            "name": "example_temperature_conversion",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_temperature_conversion.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/examples"
+        },
+        {
+            "name": "example_update_balance",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_update_balance.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/examples"
+        },
+        // --- beginner/variables/exercises ---
+        {
+            "name": "exercise_counter",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_counter.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/exercises"
+        },
+        {
+            "name": "exercise_first_name",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_first_name.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/exercises"
+        },
+        {
+            "name": "exercise_last_name",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_last_name.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/exercises"
+        },
+        {
+            "name": "exercise_multiple_updates",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_multiple_updates.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/exercises"
+        },
+        {
+            "name": "exercise_print_all",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_print_all.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/exercises"
+        },
+        {
+            "name": "exercise_swap_variables",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_swap_variables.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/exercises"
+        },
+        {
+            "name": "exercise_temp_swap",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_temp_swap.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/exercises"
+        },
+        {
+            "name": "exercise_temperature_conversion",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_temperature_conversion.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/exercises"
+        },
+        {
+            "name": "exercise_update_balance",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_update_balance.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/exercises"
+        },
+        {
+            "name": "exercise_year",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_year.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/beginner/variables/exercises"
+        },
+        // --- intermediate/dictionaries/examples ---
+        {
+            "name": "example_access_values",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_access_values.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/examples"
+        },
+        {
+            "name": "example_add_key",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_add_key.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/examples"
+        },
+        {
+            "name": "example_count_words",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_count_words.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/examples"
+        },
+        {
+            "name": "example_create_dict",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_create_dict.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/examples"
+        },
+        {
+            "name": "example_dict_from_lists",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_dict_from_lists.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/examples"
+        },
+        {
+            "name": "example_inventory_update",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_inventory_update.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/examples"
+        },
+        {
+            "name": "example_iterate_dict",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_iterate_dict.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/examples"
+        },
+        {
+            "name": "example_modify_value",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_modify_value.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/examples"
+        },
+        {
+            "name": "example_phonebook",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_phonebook.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/examples"
+        },
+        {
+            "name": "example_remove_key",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_remove_key.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/examples"
+        },
+        // --- intermediate/dictionaries/exercises ---
+        {
+            "name": "exercise_add_key",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_add_key.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/exercises"
+        },
+        {
+            "name": "exercise_count_words",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_count_words.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/exercises"
+        },
+        {
+            "name": "exercise_create_person_dict",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_create_person_dict.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/exercises"
+        },
+        {
+            "name": "exercise_dict_from_lists",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_dict_from_lists.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/exercises"
+        },
+        {
+            "name": "exercise_iterate_dict",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_iterate_dict.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/exercises"
+        },
+        {
+            "name": "exercise_modify_value",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_modify_value.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/exercises"
+        },
+        {
+            "name": "exercise_phonebook_search",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_phonebook_search.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/exercises"
+        },
+        {
+            "name": "exercise_remove_key",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_remove_key.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/exercises"
+        },
+        {
+            "name": "exercise_remove_key_dict",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_remove_key_dict.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/exercises"
+        },
+        {
+            "name": "exercise_update_inventory",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_update_inventory.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/dictionaries/exercises"
+        },
+        // --- intermediate/functions/examples ---
+        {
+            "name": "example_area_rectangle",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_area_rectangle.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/examples"
+        },
+        {
+            "name": "example_default_arg",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_default_arg.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/examples"
+        },
+        {
+            "name": "example_define_call",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_define_call.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/examples"
+        },
+        {
+            "name": "example_greet",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_greet.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/examples"
+        },
+        {
+            "name": "example_is_adult",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_is_adult.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/examples"
+        },
+        {
+            "name": "example_is_even",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_is_even.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/examples"
+        },
+        {
+            "name": "example_parameters",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_parameters.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/examples"
+        },
+        {
+            "name": "example_print_numbers",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_print_numbers.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/examples"
+        },
+        {
+            "name": "example_return",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_return.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/examples"
+        },
+        {
+            "name": "example_sum",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_sum.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/examples"
+        },
+        // --- intermediate/functions/exercises ---
+        {
+            "name": "exercise_add_function",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_add_function.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/exercises"
+        },
+        {
+            "name": "exercise_area_rectangle",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_area_rectangle.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/exercises"
+        },
+        {
+            "name": "exercise_greet_function",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_greet_function.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/exercises"
+        },
+        {
+            "name": "exercise_greet_user",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_greet_user.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/exercises"
+        },
+        {
+            "name": "exercise_is_adult",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_is_adult.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/exercises"
+        },
+        {
+            "name": "exercise_is_even_function",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_is_even_function.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/exercises"
+        },
+        {
+            "name": "exercise_multiply_default",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_multiply_default.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/exercises"
+        },
+        {
+            "name": "exercise_print_numbers",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_print_numbers.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/exercises"
+        },
+        {
+            "name": "exercise_square_function",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_square_function.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/exercises"
+        },
+        {
+            "name": "exercise_sum_numbers",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_sum_numbers.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/functions/exercises"
+        },
+        // --- intermediate/iterative_structures/examples ---
+        {
+            "name": "example_break",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_break.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/examples"
+        },
+        {
+            "name": "example_continue",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_continue.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/examples"
+        },
+        {
+            "name": "example_countdown",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_countdown.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/examples"
+        },
+        {
+            "name": "example_even_numbers",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_even_numbers.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/examples"
+        },
+        {
+            "name": "example_for_loop",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_for_loop.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/examples"
+        },
+        {
+            "name": "example_for_range",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_for_range.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/examples"
+        },
+        {
+            "name": "example_loop_list",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_loop_list.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/examples"
+        },
+        {
+            "name": "example_sum_list",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_sum_list.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/examples"
+        },
+        {
+            "name": "example_sum_until_negative",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_sum_until_negative.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/examples"
+        },
+        {
+            "name": "example_while_loop",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_while_loop.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/examples"
+        },
+        // --- intermediate/iterative_structures/exercises ---
+        {
+            "name": "exercise_break_loop",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_break_loop.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/exercises"
+        },
+        {
+            "name": "exercise_countdown",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_countdown.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/exercises"
+        },
+        {
+            "name": "exercise_even_numbers",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_even_numbers.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/exercises"
+        },
+        {
+            "name": "exercise_for_loop",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_for_loop.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/exercises"
+        },
+        {
+            "name": "exercise_for_range",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_for_range.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/exercises"
+        },
+        {
+            "name": "exercise_loop_names",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_loop_names.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/exercises"
+        },
+        {
+            "name": "exercise_sum_list",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_sum_list.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/exercises"
+        },
+        {
+            "name": "exercise_sum_list_for",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_sum_list_for.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/exercises"
+        },
+        {
+            "name": "exercise_sum_until_negative",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_sum_until_negative.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/exercises"
+        },
+        {
+            "name": "exercise_while_even",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_while_even.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/iterative_structures/exercises"
+        },
+        // --- intermediate/lists/examples ---
+        {
+            "name": "example_access_elements",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_access_elements.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/examples"
+        },
+        {
+            "name": "example_add_item",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_add_item.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/examples"
+        },
+        {
+            "name": "example_copy_list",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_copy_list.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/examples"
+        },
+        {
+            "name": "example_create_list",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_create_list.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/examples"
+        },
+        {
+            "name": "example_iterate_list",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_iterate_list.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/examples"
+        },
+        {
+            "name": "example_list_comprehension",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_list_comprehension.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/examples"
+        },
+        {
+            "name": "example_modify_list",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_modify_list.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/examples"
+        },
+        {
+            "name": "example_remove_item",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_remove_item.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/examples"
+        },
+        {
+            "name": "example_slice_list",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_slice_list.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/examples"
+        },
+        {
+            "name": "example_sort_list",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_sort_list.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/examples"
+        },
+        {
+            "name": "examples.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "examples.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/examples"
+        },
+        // --- intermediate/lists/exercises ---
+        {
+            "name": "exercise_add_fruit",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_add_fruit.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/exercises"
+        },
+        {
+            "name": "exercise_add_item",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_add_item.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/exercises"
+        },
+        {
+            "name": "exercise_copy_list",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_copy_list.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/exercises"
+        },
+        {
+            "name": "exercise_list_comprehension",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_list_comprehension.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/exercises"
+        },
+        {
+            "name": "exercise_list_length",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_list_length.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/exercises"
+        },
+        {
+            "name": "exercise_negative_index",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_negative_index.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/exercises"
+        },
+        {
+            "name": "exercise_print_fruits",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_print_fruits.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/exercises"
+        },
+        {
+            "name": "exercise_remove_fruit",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_remove_fruit.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/exercises"
+        },
+        {
+            "name": "exercise_remove_item",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_remove_item.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/exercises"
+        },
+        {
+            "name": "exercise_sort_list",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_sort_list.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/lists/exercises"
+        },
+        // --- challenge ---
+        {
+            "name": "exercise_integrador",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_integrador.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/challenge"
+        }
+    ]
 }
