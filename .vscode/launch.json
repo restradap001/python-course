@@ -4,6 +4,169 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        // --- intermediate/object_oriented_programming/examples ---
+        {
+            "name": "example_class_basic",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_class_basic.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/examples"
+        },
+        {
+            "name": "example_class_attributes",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_class_attributes.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/examples"
+        },
+        {
+            "name": "example_class_methods",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_class_methods.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/examples"
+        },
+        {
+            "name": "example_classmethod",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_classmethod.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/examples"
+        },
+        {
+            "name": "example_dunder_methods",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_dunder_methods.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/examples"
+        },
+        {
+            "name": "example_encapsulation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_encapsulation.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/examples"
+        },
+        {
+            "name": "example_inheritance",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_inheritance.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/examples"
+        },
+        {
+            "name": "example_polymorphism",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_polymorphism.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/examples"
+        },
+        {
+            "name": "example_staticmethod",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_staticmethod.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/examples"
+        },
+        {
+            "name": "example_super",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "example_super.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/examples"
+        },
+
+        // --- intermediate/object_oriented_programming/exercises ---
+        {
+            "name": "exercise_class_vs_instance",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_class_vs_instance.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/exercises"
+        },
+        {
+            "name": "exercise_classmethod",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_classmethod.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/exercises"
+        },
+        {
+            "name": "exercise_create_class",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_create_class.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/exercises"
+        },
+        {
+            "name": "exercise_dunder_str",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_dunder_str.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/exercises"
+        },
+        {
+            "name": "exercise_encapsulation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_encapsulation.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/exercises"
+        },
+        {
+            "name": "exercise_inheritance",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_inheritance.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/exercises"
+        },
+        {
+            "name": "exercise_instance_method",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_instance_method.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/exercises"
+        },
+        {
+            "name": "exercise_polymorphism",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_polymorphism.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/exercises"
+        },
+        {
+            "name": "exercise_staticmethod",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_staticmethod.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/exercises"
+        },
+        {
+            "name": "exercise_super",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "exercise_super.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/intermediate/object_oriented_programming/exercises"
+        },
         // --- intermediate/advanced_collections/examples ---
         {
             "name": "example_tuple_basic",
